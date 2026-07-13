@@ -166,3 +166,18 @@ CONFIG_BUSYBOX_CONFIG_DEVMEM=y
 ## reboots in the board's ramoops region; the image archives them to
 ## /root/pstore on the next boot.
 CONFIG_PACKAGE_kmod-ramoops=y
+
+
+##Additional packages for me
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-dawn=y
+#CONFIG_PACKAGE_luci-app-tailscale-community=y #some issue with kmod tun
+# CONFIG_PACKAGE_tailscale #some issue with kmod tun
+CONFIG_PACKAGE_nano=y
+CONFIG_PACKAGE_avahi-dbus-daemon=y
+CONFIG_PACKAGE_avahi-utils=y
+CONFIG_PACKAGE_libavahi-dbus-support=y
+CONFIG_PACKAGE_libavahi-client=y
+CONFIG_PACKAGE_adguardhome=y
+CONFIG_PACKAGE_dawn=y
+CONFIG_PACKAGE_umdns=y
